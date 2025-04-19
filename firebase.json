@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "flutter-chat-app-2da0e",
+          "appId": "1:684725372087:android:b9f0db7c23831e34eb3932",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "flutter-chat-app-2da0e",
+          "configurations": {
+            "android": "1:684725372087:android:b9f0db7c23831e34eb3932",
+            "ios": "1:684725372087:ios:88966a662210c145eb3932",
+            "macos": "1:684725372087:ios:88966a662210c145eb3932",
+            "web": "1:684725372087:web:d31642924e33d209eb3932",
+            "windows": "1:684725372087:web:fd3f899b4c0e6034eb3932"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "runtime": "nodejs18",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
